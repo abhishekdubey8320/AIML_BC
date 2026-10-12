@@ -251,12 +251,12 @@ while num <=20:
         print(num)
     num +=1'''
 
-num = 5
+'''num = 5
 sum = 1
 while num>=1:
     sum *=num
     num-= 1
-print(sum)
+print(sum)'''
 
 '''Dry run  = running code without executing it 
 num(>=1)        sum 
@@ -269,6 +269,16 @@ num(>=1)        sum
 
 output = 120 
 '''
+
+#Write a Python program that:
+'''1. Asks the user for their name.
+2. Asks the user for their age.
+3. Prints a message: "Hello <name>, you are <age> years old."
+Use input() and print().'''
+'''name = input("Enter your name :")
+age  = int(input("Enter your age :"))
+
+print("Hello", name, "youu are",age,"years old")'''
 
 
 
