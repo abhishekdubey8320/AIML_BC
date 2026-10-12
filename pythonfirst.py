@@ -281,5 +281,160 @@ age  = int(input("Enter your age :"))
 print("Hello", name, "youu are",age,"years old")'''
 
 
+#Write a Python program that:
+'''1. Takes two numbers a = 12, b = 5.
+2. Prints: a + b, a - b, a * b, a / b, a % b, a ** b.
+3. Also prints whether a is greater than b.'''
+'''a=12
+b=5
+print("a+b :",a+b)
+print("a-b :",a-b)
+print("a*b :",a*b)
+print("a/b :",a/b)
+print("a%b :",a%b)
+print("a**b :",a**b)
+
+if a>b:
+    print("a is greater than b")
+else:
+    print("a is less than b")'''
+
+#Create a complete command-line expense tracker for three expenses. Use variables, 
+# literals, input, arithmetic expressions, comments, correct indentation, and 
+# suitable data types. Display the total and whether the total exceeds a user-defined budget.
+
+#Take budget from the the user
+'''budget = float(input("Enter your budget :")) #user defined budget
+
+#Take three expenses from the user
+xpense1 = float(input("Enter the first expense :"))
+expense2 = float(input("Enter the second expense :"))
+expense3 = float(input("Enter the third expense :"))
+
+#Calculate total expense 
+total = expense1+expense2+expense3
+
+#Display the total
+print("Total expense :", total) 
+
+#whether the total exceeds a user-defined budget.
+if total<=budget:
+    print("within budget")
+else:
+    print("budget exceeded!")'''
+
+#Create a program that accepts two values and demonstrates equality, inequality, greater-than, 
+# less-than, identity, and membership operations using appropriate Python objects.
+'''a= int(input("Enter first value"))
+b= int()
+
+   '''
+
+
+#While loop
+#write program usning while loop to print 1 to 5
+'''num = 1
+while num<=5:
+    print(num)
+    num+=1'''
+
+#write program for print even number from 2 to 10
+'''num =2 
+while num <= 10:
+    if num % 2 == 0:
+        print(num)
+    num+=1'''
+
+#write a program to print odd number from 1 to 9 using while loop
+'''num = 1
+while num <= 9:
+    if num % 2 ==1:
+        print(num)
+    num+=1'''
+
+#write code to print number from 10 down to 1
+'''num = 10
+while num >= 1:
+    print(num)
+    num -= 1'''
+
+#write code to calculate sum of number from 1 to 10
+'''num =1
+sum = 0
+while num <= 10:
+    sum+=num
+    num+=1
+    print(sum)'''
+
+#write code to multifiaction of 5 from 1 to 40
+'''num = 1
+while num <= 10:
+    print(num * 5)
+    num +=1'''
+
+
+    #reberse the number 76543
+'''num = 76543
+result =0
+while num > 0:
+    temp = num % 10
+    result = result * 10
+    result = result + temp
+    num  = num // 10
+print(result)'''
+
+#for loop
+
+'''for count in range(100):
+    print(count)'''
+
+'''for num in range(0,5):
+    print(num)'''
+
+'''for num in range(2,6):
+    print(num)'''
+
+#write a code from 1 to 5
+'''for num in range(1,6):
+    print(num)'''
+
+#even number 1 to 10
+'''for count in range(1,11):
+    if count % 2==0:
+        print(count)'''
+
+#odd 
+'''for count in range(1,10):
+    if count % 2==1:
+        print(count)'''
+
+# down num10 to 1
+'''for count in range(10,0,-1):
+    print(count)'''
+
+#sum 1 to 10
+'''sum = 0
+for count in range(1,10):
+    sum += count
+print(sum)'''
+
+#multification 5 
+'''for count in range(1,11):
+    print(count * 5)'''
+
+'''for count in range(1,11):
+    print(f'5 x {count} = {5 * count}')'''
+
+# 1 to 20 divisible 3
+'''for count in range(1,20):
+    if count % 3==0:
+        print(count)'''
+
+#factorial 5 
+num =5
+fac =1
+'''for count in range(1,num):
+    fac = fac * count
+print(fac)''''
 
 
