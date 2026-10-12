@@ -130,6 +130,7 @@ print(a is 12)
 print(a is not 10)
 print(a is not 12)'''
 
+
 #input function
 #input function alway retunrs a string
 
@@ -229,5 +230,46 @@ elif score>50:
     print("Grade c")
 else:
     print("Grade F")'''
+
+
+#loop
+'''num =1
+while num <=10:
+    print(num *5)
+    num+=1'''
+
+#write a number more than 5 from 1 to 10
+'''num =1
+while num  <=10:
+    if num >5:
+        print(num)
+        num +=1'''
+
+'''num =1
+while num <=20:
+    if num%3==0 :
+        print(num)
+    num +=1'''
+
+num = 5
+sum = 1
+while num>=1:
+    sum *=num
+    num-= 1
+print(sum)
+
+'''Dry run  = running code without executing it 
+num(>=1)        sum 
+5                1
+4                5
+3                20
+2                60
+1                120
+0                120
+
+output = 120 
+'''
+
+
 
 
