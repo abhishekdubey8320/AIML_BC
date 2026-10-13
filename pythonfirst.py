@@ -435,6 +435,41 @@ num =5
 fac =1
 '''for count in range(1,num):
     fac = fac * count
-print(fac)''''
+print(fac)'''
+
+#break and continue
+'''num = 1
+while num <= 10:
+    if num == 5:
+        break
+    else:
+        print(num)
+    num += 1'''
+
+'''num = 1
+while num <= 10:
+    num += 1
+    if num == 5:
+        continue
+    else:
+        print(num)'''
+
+#1 to 10 divisible by 7
+'''num =1
+while num <= 10:
+    num +=1
+    if num % 7 == 0:
+        break
+    else:
+        print(num)'''
+
+#1 to 10 skip even number 
+'''num =1
+while num <= 10:
+    num += 1
+    if num % 2 == 0:
+        continue
+    else:
+        print(num)'''
 
 
