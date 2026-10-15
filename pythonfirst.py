@@ -579,5 +579,55 @@ print(b)'''
 print(a)
 print(b)'''
 
-#list sort
+#list sort (bobble sort)
+'''list = [8,10,6,2,4]
+for index1 in range(len(list)-1):
+    for index in range(len(list)-1):
+        if list[index] > list[index+1]:
+            list[index], list[index+1] = list[index+1] , list[index]
 
+print(list)'''
+
+'''count = 0
+list = [8,10,6,2,4]
+for index1 in range(len(list)- 1):
+    for index in range(len(list)- (index1+1)):
+        count +=1
+        if list[index] > list[index+1]:
+            list[index], list[index+1] = list[index+1] , list[index]
+
+print(list)
+print("loop ran :", count,"times")'''
+
+#list = [8,10,6,2,4]
+'''list  = [2,4,6,8,10]
+
+count=0
+swapped = True
+for index1 in range(len(list)- 1):
+    swapped = False
+    for index in range(len(list)- (index1+1)):
+        count +=1
+        if list[index] > list[index+1]:
+            list[index], list[index+1] = list[index+1] , list[index]
+        if swapped == False:
+            break  
+
+print(list)
+print("loop ran :", count,"times")'''
+
+#using while loop 
+
+'''list = [2,4,6,8,10]
+
+swapped = True
+count = 0
+while swapped:
+    swapped  = False
+    for index in range(len(list)-1):
+        count +=1
+        if list[index] > list[index +1]:
+            swapped = True
+            list[index], list[index +1] = list[index +1], list[index]
+print(list)
+print(count)'''
