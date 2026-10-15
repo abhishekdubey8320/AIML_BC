@@ -473,3 +473,111 @@ while num <= 10:
         print(num)'''
 
 
+#List 
+'''numbers = []
+numbers = [10,20,30,40,50]
+print(numbers)
+
+print(type(numbers))
+
+print(f'first element :  {numbers[0]}')
+print(f'second  element :  {numbers[1]}')
+print(f'third element :  {numbers[2]}')
+print(f'fourth element :  {numbers[3]}')
+print(f'five element :  {numbers[4]}')
+
+numbers[1]= 100
+print(f'second element : {numbers[1]}')
+print(numbers)
+
+numbers[0] = numbers[2]
+print(numbers)
+
+print(len(numbers))'''
+
+'''myList = ["one",2,2.5,True,False,[1,2,3]]
+print(len(myList))
+print(myList)
+myList[0] =1
+print(myList)
+print(type(myList))
+
+del myList[0]
+print(len(myList))
+print(myList)
+
+
+print(myList[0])
+print(myList[3])'''
+
+'''del myList
+print(myList)
+print(myList[0])'''
+
+'''print(myList[-1])
+print(myList[-3])'''
+
+'''list = [1,2,3,4,5]
+print(list)
+print(f'length  of list : {len(list)}')
+
+list.append(6)
+print(list)
+print(len(list))
+
+list.insert(0,0)
+print(list)
+print(f'length of list : {len(list)}')'''
+
+
+#loop with list
+'''list = [5,4,3,2,1]
+
+for index in range(len(list)):
+    print("Element :", list[index])
+
+for index in range(len(list)):
+    print(f'list[{index}] ->', list[index])'''
+
+'''my_list = []
+
+for conut in    range(1,11):
+    my_list.append(conut)
+print(my_list)
+
+
+for index in range(len(my_list)):
+    my_list[index] = my_list[index] + 10
+print(my_list)'''
+
+#swap the variables
+a= 10
+b= 20
+
+#1 
+'''b = a+b
+a = b-a
+b = b-a
+print(a)
+print(b)'''
+
+#2
+'''c = b
+b= a
+a = c
+print(a)
+print(b)'''
+
+#3
+'''b = a * b
+a = b // a
+b = b // a
+print(a)
+print(b)'''
+
+'''a,b = b,a
+print(a)
+print(b)'''
+
+#list sort
+
