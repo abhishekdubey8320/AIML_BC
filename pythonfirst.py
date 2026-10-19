@@ -639,3 +639,78 @@ print(count)'''
 '''for count in range(2,11):
     if count % 2 == 0:
         print(count)'''
+
+#print odd number from 1 to 9
+'''for count in range(1,10,2):
+    print(count)'''
+'''for count in range(1,10):
+    if count % 2 != 0:
+        print(count)'''
+
+#print the number from 10 down to 1
+'''for count in range(10,1,-1):
+    print(count)'''
+
+#print sum of number from 1 to 10
+'''total = 0
+for count in range(1,11):
+    total = total + count
+    
+print("Total : ",total)'''
+
+#print the number of multiplification of 5 
+'''num = 5
+for count in range(1,11):
+    print(count * 5)'''
+
+#Write a program to print each item from the list ["Apple", "Banana", "Mango"].
+
+'''list = ["Apple", "Banana", "Mango"]
+for list in list:
+    print(list)'''
+
+'''list = ["Apple","Banana","Mango","Orange"]
+for list in list:
+    #print(list)
+    print(len(list))'''
+
+'''list = ["Apple","Banana","Mango","Orange"]
+for list in list:
+    print(len(list))'''
+
+#Write a program to print each character of the string "Python" using a for loop.
+'''text = "python"
+for char in text:
+    print(char)'''
+
+#print the number from 1 to 20 which are  divisible by 3 
+'''for count in range(1,21):
+    if count % 3 ==0:
+        print(count)'''
+
+#write a prograame to find factorial of 5 using for loop
+'''fac = 1
+for count in range(1,6):
+    fac = fac * count
+    print(fac)'''
+
+#write programme to ptint only possitive numbers [-3, 5, -1, 8, 0, 4].
+'''list = [-3, 5, -1, 8, 0, 4]
+for index in list:
+    if index > 0:
+        print(index)'''
+
+#Write a program to print numbers from 1 to 10 but skip multiples of 3 using continue.
+'''for index in range(1,11):
+    if index % 3 == 0:
+        continue
+    print(index)'''
+
+#Write a program to calculate the average of [70, 80, 90, 60, 100] using a for loop.
+list = [70,80,60,90,100]
+total =0
+for index in list:
+    total = total + index
+    average = total / len(list)
+print(average)
+  
