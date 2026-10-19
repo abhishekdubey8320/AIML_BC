@@ -631,3 +631,11 @@ while swapped:
             list[index], list[index +1] = list[index +1], list[index]
 print(list)
 print(count)'''
+
+#practice for loop 
+#Write a program to print even numbers from 2 to 10 using a for loop.
+'''for count in range(2,11,2):
+    print(count)'''
+'''for count in range(2,11):
+    if count % 2 == 0:
+        print(count)'''
