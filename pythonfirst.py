@@ -707,10 +707,92 @@ for index in list:
     print(index)'''
 
 #Write a program to calculate the average of [70, 80, 90, 60, 100] using a for loop.
-list = [70,80,60,90,100]
+'''list = [70,80,60,90,100]
 total =0
-for index in list:
-    total = total + index
-    average = total / len(list)
-print(average)
-  
+for index in range(len(list)):
+    #print(index)
+    total = total + list[index]
+average = total / len(list)
+print(average)'''
+
+#Write a program to print numbers from 1 to 10 and stop the loop when the number reaches 6 using break.
+'''for index in range(1,11):
+    if index == 6:
+        break
+    print(index)'''
+
+#Write a program to print numbers from 1 to 10 but skip number 5 using continue.
+'''for index in range(1,11):
+    if index == 5:
+        continue
+    print(index)'''
+
+#Write a program to print numbers from 1 to 10, skipping all even numbers.
+'''for index in range(1,11):'''
+
+#write aprogramme to print num from 10 down 1 only odd nunber 
+'''for index in range(10,0,-1):
+    if index % 2 !=0:
+        print(index)'''
+
+
+#list operations 
+'''list_1 =[1]
+list_2 =list_1
+list_1[0]=2
+
+print(list_2)'''
+
+
+#slice opration
+'''my_list = [10,8,6,4,2]
+new_list = my_list[1:4]
+print(new_list)
+
+new_list = my_list[0:]
+print(new_list)
+
+list = []
+for index in range(0,500):
+    list.append(index+1)
+
+    #175-450
+myNewList = list[174 : 450]
+print(myNewList)'''
+
+'''my_list = [10,8,6,2,4]
+print("21 in my list", 21 in my_list)
+
+my_list1 = my_list[:]
+
+my_list1[2] = 18
+print("18 in list", 18 in my_list1)
+print("20 in list", 20 in my_list1)'''
+
+
+'''row = []
+for i in range(8):
+    row.append("white_pawn")
+print(row)
+print(len(row))'''
+
+
+#list comprehnsion
+'''row = ["white_pawn1" for i in range(8)]
+print(row)
+print(len(row))'''
+
+'''squares = [x ** 2 for x in range(10)]
+print(squares)
+
+squares = [x ** 2 for x in range(1,11)]
+print(squares)'''
+
+'''twos = [2 ** i for i in range(8)]
+print(twos)'''
+
+odds 
+
+
+
+
