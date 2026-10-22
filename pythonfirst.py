@@ -791,7 +791,54 @@ print(squares)'''
 '''twos = [2 ** i for i in range(8)]
 print(twos)'''
 
-odds 
+'''odds
+
+
+
+'''
+
+
+
+
+
+#Two dimension array 
+'''board= []
+for i in range(8):
+    row = ["Empty" for i in range(8)]
+    board.append(row)
+
+#print(board)
+
+board[0][0]  = "Rooks"
+board[0][7]  = "Rooks"
+board[7][0]  = "Rooks"
+board[7][7]  = "Rooks"
+
+print(board)
+
+board[0][1] = "knight"
+board[0][6]  = "Rooks"
+board[7][1]  = "Rooks"
+board[7][6]  = "Rooks"'''
+
+#temps = [[0.0 for h in range(24)] for d in range(31)]
+#print(temps)
+
+'''temps = [[h for h in range(24)] for d in range(31)]
+#print(temps)
+sum = 0
+for i in range(len(temps)):
+    sum += temps[i][11]
+average = sum / len(temps)
+print(average)
+
+greater = -9999999999
+for row in range(len(temps)):
+    for col in range(24):
+        if greater < temps[row][col]:
+            greater = temps[row][col]
+print("greater :", greater)'''
+
 
 
 
