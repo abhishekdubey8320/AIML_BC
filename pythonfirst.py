@@ -791,11 +791,12 @@ print(squares)'''
 '''twos = [2 ** i for i in range(8)]
 print(twos)'''
 
-'''odds
 
+#print the odd number from the list 
+'''numbers  = [1, 2, 4, 9,8, 16, 32,33, 64, 128]
+oddNumber = [x for x in numbers if x % 2 != 0]
+print(oddNumber)'''
 
-
-'''
 
 
 
@@ -838,6 +839,54 @@ for row in range(len(temps)):
         if greater < temps[row][col]:
             greater = temps[row][col]
 print("greater :", greater)'''
+
+
+#Function
+
+'''def message():
+    print("Enter the value :")'''
+
+
+#print("Starting now")
+#message()
+#print("Completed now")
+
+#print("Enter the value")
+#message()
+#a = int(input())
+
+#print("Enter the value")
+#message()
+#b = int(input())
+
+#print("Enter the value")
+#message()
+#c = int(input())
+
+
+'''def greet(name):  #parameterised function
+    print("Hello", name)
+
+name  = input("Enter your name :")
+greet(name)         #Argumented function invocation'''
+
+
+'''def greetWithdetails(firstName, roll):
+    print("Hello RollNumber", roll, " ",firstName)
+
+name = input("Enter your name :")
+roll = int(input("Enter your roll number :"))
+greetWithdetails(name,roll)
+greetWithdetails(roll,name)'''
+
+def message(what, number):
+    print("Enter", what, "number",number)
+
+
+message("telephone",11)
+message("price",5)
+message("number",number)
+
 
 
 
