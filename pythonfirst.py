@@ -841,7 +841,7 @@ for row in range(len(temps)):
 print("greater :", greater)'''
 
 
-#Function
+#Function  -------------------
 
 '''def message():
     print("Enter the value :")'''
@@ -879,13 +879,13 @@ roll = int(input("Enter your roll number :"))
 greetWithdetails(name,roll)
 greetWithdetails(roll,name)'''
 
-def message(what, number):
+'''def message(what, number):
     print("Enter", what, "number",number)
 
 
 message("telephone",11)
 message("price",5)
-message("number",number)
+message("number",number)'''
 
 
 
