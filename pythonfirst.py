@@ -791,6 +791,12 @@ print(squares)'''
 '''twos = [2 ** i for i in range(8)]
 print(twos)'''
 
+'''evenNumber = [x for x in range(1,11) if x % 2 == 0]
+print(evenNumber)'''
+
+squares = [ x** 2 for x in range(0,9)]
+print(squares)
+
 
 #print the odd number from the list 
 '''numbers  = [1, 2, 4, 9,8, 16, 32,33, 64, 128]
