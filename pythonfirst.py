@@ -794,8 +794,8 @@ print(twos)'''
 '''evenNumber = [x for x in range(1,11) if x % 2 == 0]
 print(evenNumber)'''
 
-squares = [ x** 2 for x in range(0,9)]
-print(squares)
+'''squares = [ x** 2 for x in range(0,9)]
+print(squares)'''
 
 
 #print the odd number from the list 
@@ -892,6 +892,136 @@ greetWithdetails(roll,name)'''
 message("telephone",11)
 message("price",5)
 message("number",number)'''
+
+
+'''def message(what, number):
+    print("Enter", what, "number",number)
+
+#def message(number,what,xyz):
+    #print("enter",what,"number",number)
+
+message("telephone", 11)
+message("price",5)
+message("number", "number")
+
+message(number=11,what="telephone")
+#message(number=11,what="telephone",xyz="xyz")'''
+
+'''def adding(a,b,c):
+    print(a,"+", b,"+",c,"=",a+b+c)
+
+adding(1,2,3)
+adding(c=1,b=2,a=3)
+adding(3,c=1,b=2)
+#adding(a=3,1,c=2)'''
+
+
+'''def happy_new_year():
+    print("Three")
+    print("Two")
+    print("One")
+    return
+    print("Four")
+
+happy_new_year()
+
+def greet(wishes = True ):
+    print(1)
+    print(2)
+    print(3)
+    if not wishes:
+        return
+    print("Happy new years")
+
+greet(False)'''
+
+'''def sum(a,b):
+    return a+b
+
+result = sum(11,32)
+print(result)'''
+
+'''def sum(a,b,c,d,e):
+    return [a+5,b+5,c+5,d+10,e]
+
+result = sum(11,32,55,90,1)
+print(result[0])
+print(result[1])
+print(result[2])
+
+print(result[3])
+
+print(result[4])'''
+
+'''value = None
+if value is None:
+    print("Sorry, you don't carry any number")
+print(type(None))
+print(type(value))
+
+
+def hello(check):
+    if check is True:
+        return
+
+result = hello(False)
+print(result)
+
+result = hello(True)
+print(result)
+
+def strange_function(n):
+    if (n % 2 ==0):
+        return True
+
+print(strange_function(2))
+print(strange_function(1))
+'''
+
+'''def strange_list_fun(n):
+    strange_list = []
+    for i in range(0,n):
+        strange_list.insert(0,i)
+    return strange_list
+print(strange_list_fun(5))'''
+
+'''def greet():
+    print("Hello,Python!")
+
+greet()'''
+
+def welcome(name):
+    print("welcome you",name)
+
+welcome("Abhishek")
+
+def multiple(a,b):
+    return a*b
+
+result= multiple(4,5)
+print(result)
+
+def square(number):
+    return number * number
+
+out = square(2)
+print(out)
+
+
+def even(number):
+    if number % 2 ==0:
+        return "Even"
+
+check = even(32)
+print(check)
+        
+
+
+
+
+
+
+
 
 
 
