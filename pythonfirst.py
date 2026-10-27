@@ -990,7 +990,7 @@ print(strange_list_fun(5))'''
 
 greet()'''
 
-def welcome(name):
+'''def welcome(name):
     print("welcome you",name)
 
 welcome("Abhishek")
@@ -1013,8 +1013,9 @@ def even(number):
         return "Even"
 
 check = even(32)
-print(check)
-        
+print(check)'''
+
+
 
 
 
