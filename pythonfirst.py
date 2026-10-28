@@ -1015,6 +1015,93 @@ def even(number):
 check = even(32)
 print(check)'''
 
+#scope
+'''def scope_test():
+    x = 123
+scope_test()
+
+def my_function():
+    print("Do I know that variable?", var)
+var = 1
+my_function()
+print(var)
+
+
+var =2
+def mult_by_var(x):
+    return x * var
+print(mult_by_var(7))
+
+var = 7
+def mult(x):
+    var = 5
+    return x * var
+print(mult(7))'''
+
+'''def my_function():
+    global var
+    var = 2
+    print("Do I know that variable?", var)
+
+var = 1
+my_function()
+print(var)'''
+
+'''var = 2
+print(var)
+
+def return_var():
+    global var 
+    var = 5
+    return var
+print(return_var())
+print(var)'''
+
+'''def my_funtion(n):
+    print("I got",n)
+    n +=1
+    print("I have", n)
+var = 1
+my_funtion(var)
+print(var)'''
+
+
+'''def my_function(my_list_1):
+    print("print #1",my_list_1)
+    print("print #2", my_list_2)
+    my_list_1 = [0,1]
+    print("print #3", my_list_1)
+    print("print #4", my_list_2)
+
+my_list_2 = [2,3]
+my_funtion(my_list_2)
+print("print #5", my_list_2)'''
+
+'''def my_function(my_list_1):
+    print("print #1", my_list_1)
+    print("print #2", my_list_2)
+    #my_list_1 = [0,1]  #new list created locally
+    my_list_1.append(5)
+    print("print #3", my_list_1)
+    print("print #4", my_list_2)
+    del my_list_1[0]
+    print("print #5", my_list_1)
+    print("print #6", my_list_2)
+
+my_list_2 = [2,3]
+my_function(my_list_2)
+print("print #7", my_list_2)'''
+
+tuple_1 = (1,2,3,4,8)
+print("tuple_1", tuple_1)
+print("Type of tuple_1", type(tuple_1))
+
+tuple_2 = 1.,.5,.25,.125
+print("tuple_2:",tuple_2)
+print("type of tuple_2", type(tuple_2))
+tuple_3 = 1,2,3,4,5
+print("tuple_3",tuple_3)
+print("Type of tuple_3",type(tuple_3))
 
 
 
