@@ -1104,13 +1104,104 @@ print("tuple_3",tuple_3)
 print("Type of tuple_3",type(tuple_3))'''
 
 #tuple operations
-my_tuple = (1,10,100,1000)
+'''my_tuple = (1,10,100,1000)
 #my_tuple.append(10000)
 #del my_tuple[0]
 #my_tuple[1] = -10
 print(my_tuple[0])
 print(my_tuple[1])
-print(my_tuple[2])
+print(my_tuple[2])'''
+
+'''my_tuple = (1,10,100,1000)
+my_tuple1 =(10000,100000)
+my_tuple2 = my_tuple + my_tuple1 
+print(my_tuple2)
+print("Length of my_typle2:", len(my_tuple2))
+
+my_tuple2 = my_tuple2 + (12,)
+print(my_tuple2)
+print("Length of my_tuple2", len(my_tuple2))''' 
+
+'''list = [1,2]
+print(list * 5)
+
+my_tuple = (1,10,100,1000)
+print(my_tuple * 3)
+
+check = 100 in my_tuple
+print(check)
+
+check = 200 in my_tuple
+print(check)
+
+
+check = 100 not in my_tuple
+print(check)
+'''
+
+'''tuple = (1,2,3,4,5)
+for index in range(0,len(tuple)):
+    print(tuple[index])
+
+print("--------------")
+
+for ele in tuple:
+    print(ele)'''
+
+'''my_tuple = tuple((1,2, "string"))
+print(my_tuple)
+my_list =[2,4,6]
+print(my_list)
+print(type(my_list))
+tup = tuple(my_list)
+print(tup)
+print(type(tup))'''
+
+'''var = 123
+
+t1 = (1,)
+t2 = (2,)
+t3 = (3,var)
+
+t1,t2,t3 = t2,t3,t1
+
+print(t1,t2,t3)'''
+
+#dictionary 
+
+'''dict = {
+     "a":"AA",
+     "a":"A",
+     "b" :"B"
+}
+
+print(dict)
+print(len(dict))
+print(type(dict))'''
+
+phone_number = {'boss': 738383938,
+                'suzy': 93983983893}
+
+empty_dictionary = {}
+
+#print(phone_number['boss'])
+#print(phone_number['suzy'])
+
+dictionary = {'cat': "chat",
+              "dog": "chien",
+              "horse": 'cheval'}
+
+words = dictionary.keys()
+#words = ['cat','lion','hourse','dog']
+for word in words:
+    if word in dictionary:
+        print(word,dictionary[word])
+    else:
+        print(word,"is not in dictionary")
+
+print(words)
+print(dictionary.keys())
+
 
 
 
