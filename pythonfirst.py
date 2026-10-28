@@ -1092,7 +1092,7 @@ my_list_2 = [2,3]
 my_function(my_list_2)
 print("print #7", my_list_2)'''
 
-tuple_1 = (1,2,3,4,8)
+'''tuple_1 = (1,2,3,4,8)
 print("tuple_1", tuple_1)
 print("Type of tuple_1", type(tuple_1))
 
@@ -1101,8 +1101,16 @@ print("tuple_2:",tuple_2)
 print("type of tuple_2", type(tuple_2))
 tuple_3 = 1,2,3,4,5
 print("tuple_3",tuple_3)
-print("Type of tuple_3",type(tuple_3))
+print("Type of tuple_3",type(tuple_3))'''
 
+#tuple operations
+my_tuple = (1,10,100,1000)
+#my_tuple.append(10000)
+#del my_tuple[0]
+#my_tuple[1] = -10
+print(my_tuple[0])
+print(my_tuple[1])
+print(my_tuple[2])
 
 
 
