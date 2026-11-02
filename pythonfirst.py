@@ -1179,28 +1179,28 @@ print(dict)
 print(len(dict))
 print(type(dict))'''
 
-phone_number = {'boss': 738383938,
-                'suzy': 93983983893}
+# phone_number = {'boss': 738383938,
+#                 'suzy': 93983983893}
 
-empty_dictionary = {}
+# empty_dictionary = {}
 
 #print(phone_number['boss'])
 #print(phone_number['suzy'])
 
-dictionary = {'cat': "chat",
-              "dog": "chien",
-              "horse": 'cheval'}
+# dictionary = {'cat': "chat",
+#               "dog": "chien",
+#               "horse": 'cheval'}
 
-words = dictionary.keys()
+#words = dictionary.keys()
 #words = ['cat','lion','hourse','dog']
-for word in words:
+'''for word in words:
     if word in dictionary:
         print(word,dictionary[word])
     else:
         print(word,"is not in dictionary")
 
 print(words)
-print(dictionary.keys())
+print(dictionary.keys())'''
 
 
 
