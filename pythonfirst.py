@@ -1202,12 +1202,83 @@ print(type(dict))'''
 print(words)
 print(dictionary.keys())'''
 
+# dictionary = {
+#                "cat": "chat",
+#                "dog" :"chien",
+#                "horse": "cheval"
+# }
+#print(dictionary.items())
+
+# for item in dictionary.items():
+#     print(item[0],":",item[1])
+
+# print(dictionary.values())
+
+# for value in dictionary.values():
+#     print(value)
 
 
+#Copy method 
+# dictionary = {
+#                "cat": "chat",
+#                "dog" :"chien",
+#                "horse": "cheval"
+# }
 
+# dictionary1 = dictionary
+# print("dictionary", dictionary)
+# print("dictionary1",dictionary1)
 
+# dictionary["cat"] = "CAT"
 
+# print("dictionary:",dictionary)
+# print("dictionary1:",dictionary1)
 
+# dictionary1 = dictionary.copy()
+# dictionary["cat"] = "CATTTT"
+
+# print("dictionary:",dictionary)
+# print("dictionary1:",dictionary1)
+
+# dictionary = {
+#                "cat": "chat",
+#                "dog" :"chien",
+#                "horse": "cheval"
+# }
+
+# #change value 
+# dictionary["cat"] = "123"
+# print(dictionary)
+# dictionary["parrot"] = "456"
+# print(dictionary)
+
+# #delete
+# del dictionary["cat"], dictionary["dog"]
+# print(dictionary)
+
+# #create new dictionary
+# pol_eng_dictionary = {"kwiat":"flower"}
+# pol_eng_dictionary.update({"gleba":"soil"})
+# print(pol_eng_dictionary)
+# pol_eng_dictionary.popitem()
+# print(pol_eng_dictionary)
+
+pol_eng_dictionary = {
+  "zamek" : "castle",
+  "woda" :"water",
+  "gleba": "soil"
+}
+
+for key,value in pol_eng_dictionary.items():
+    print("Pol/Eng ->",key,":",value)
+
+if "castle" in pol_eng_dictionary:
+    print("Yes")
+else:
+    print("No")
+
+pol_eng_dictionary.clear()
+print(pol_eng_dictionary)
 
 
 
