@@ -1263,23 +1263,32 @@ print(dictionary.keys())'''
 # pol_eng_dictionary.popitem()
 # print(pol_eng_dictionary)
 
-pol_eng_dictionary = {
-  "zamek" : "castle",
-  "woda" :"water",
-  "gleba": "soil"
-}
+# pol_eng_dictionary = {
+#   "zamek" : "castle",
+#   "woda" :"water",
+#   "gleba": "soil"
+# }
 
-for key,value in pol_eng_dictionary.items():
-    print("Pol/Eng ->",key,":",value)
+# for key,value in pol_eng_dictionary.items():
+#     print("Pol/Eng ->",key,":",value)
 
-if "castle" in pol_eng_dictionary:
-    print("Yes")
-else:
-    print("No")
+# if "castle" in pol_eng_dictionary:
+#     print("Yes")
+# else:
+#     print("No")
 
-pol_eng_dictionary.clear()
-print(pol_eng_dictionary)
+# pol_eng_dictionary.clear()
+# print(pol_eng_dictionary)
 
+# def my_function():
+#     global var
+#     var = 2
+#     print("Do i know that variable",var)
+
+# var = 1
+
+# my_function()
+# print(var)
 
 
 
