@@ -1290,6 +1290,78 @@ print(dictionary.keys())'''
 # my_function()
 # print(var)
 
+# name = input("Enter name : ")
+# mark = float(input("Enter mark :"))
+# a = {}
+
+# while name:
+#      if name in a:
+#          a[name]+= float(mark,)
+#          float(mark,) += mark
+#          a[name] = float(mark)
+#      else :
+#          mark = float(mark,)
+#      name =input("Enter name : ")
+#      if name :
+#         mark = float(input("Enter mark:"))
+
+
+
+# for key,value in name.item():
+#     print(name," ", avg/len(value))
+
+# name = input("Enter name : ")
+# marks = float(input("Enter makrs : "))
+# a = {}
+
+# while name:
+#     if name in a:
+#         a[name] += float((marks,))
+#     else:
+#         a.update({name : (marks,)})
+#     name = input("Enter name : ")
+#     marks = float(input("Enter marks : "))
+
+    # if name in a:
+    #     total = a[name]
+    #     total += marks
+    #     a[name] = (total,)
+    # else:
+    #     a[name] = (mark,)
+
+    # name = input("Enter name : ")
+
+
+    # for key, value in a.items():
+    #     total, count = value
+    #     avg = total / count
+    #     print(key, "Average:", avg)
+
+name = input("Enter name : ")
+a = {}
+
+while name:
+    marks = float(input("Enter marks : "))
+
+    if name in a:
+        a[name] += (marks,)
+    else:   
+        a.update({name: (marks,)})
+
+    name = input("Enter name : ")
+
+for key, value in a.items():
+    avg = sum(value) / len(value)
+    print(key, "Average:", avg)
+
+
+    
+
+
+
+
+
+
 
 
 
