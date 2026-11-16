@@ -1337,27 +1337,59 @@ print(dictionary.keys())'''
     #     avg = total / count
     #     print(key, "Average:", avg)
 
-name = input("Enter name : ")
-a = {}
+# name = input("Enter name : ")
+# a = {}
 
-while name:
-    marks = float(input("Enter marks : "))
+# while name:
+#     marks = float(input("Enter marks : "))
 
-    if name in a:
-        a[name] += (marks,)
-    else:   
-        a.update({name: (marks,)})
+#     if name in a:
+#         a[name] += (marks,)
+#     else:   
+#         a.update({name: (marks,)})
 
-    name = input("Enter name : ")
+#     name = input("Enter name : ")
 
-for key, value in a.items():
-    avg = sum(value) / len(value)
-    print(key, "Average:", avg)
+# for key, value in a.items():
+#     avg = sum(value) / len(value)
+#     print(key, "Average:", avg)
 
+# i = 1
+# while i >= 100:
+#     number = int(input("Enter the number :"))
 
-    
+#     if i == number:
+#         break
+#     elif i < number:
+#         print("Too low")
+#     else :
+#         i > number
+#         print("Too high")
 
-
+import random
+secret = random.randint(1,100)
+print("I am thinking about a number between 1-100, can you guess it")
+attemts = 0
+print("1")
+while True:
+    text = input("Enter your guess: ")
+    if text.isdigit():
+        guess = int(text)
+    else :
+        print("Please enter a whole number between 1-100!")
+        continue
+    print("2")
+    attemts += 1
+    print("3")
+    if guess == secret:
+        print(f"correct! you guessed it in {attemts} attempts!")
+        print("4")
+        break
+    elif guess < secret:
+        print("Too Low! Try again.....")
+        print("5")
+    else :
+        print("Too High! Try again....")
 
 
 
