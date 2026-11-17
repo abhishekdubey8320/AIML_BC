@@ -1366,33 +1366,52 @@ print(dictionary.keys())'''
 #         i > number
 #         print("Too high")
 
-import random
-secret = random.randint(1,100)
-print("I am thinking about a number between 1-100, can you guess it")
-attemts = 0
-print("1")
-while True:
-    text = input("Enter your guess: ")
-    if text.isdigit():
-        guess = int(text)
-    else :
-        print("Please enter a whole number between 1-100!")
-        continue
-    print("2")
-    attemts += 1
-    print("3")
-    if guess == secret:
-        print(f"correct! you guessed it in {attemts} attempts!")
-        print("4")
-        break
-    elif guess < secret:
-        print("Too Low! Try again.....")
-        print("5")
-    else :
-        print("Too High! Try again....")
+# import random
+# secret = random.randint(1,100)
+# print("I am thinking about a number between 1-100, can you guess it")
+# attemts = 0
+# print("1")
+# while True:
+#     text = input("Enter your guess: ")
+#     if text.isdigit():
+#         guess = int(text)
+#     else :
+#         print("Please enter a whole number between 1-100!")
+#         continue
+#     print("2")
+#     attemts += 1
+#     print("3")
+#     if guess == secret:
+#         print(f"correct! you guessed it in {attemts} attempts!")
+#         print("4")
+#         break
+#     elif guess < secret:
+#         print("Too Low! Try again.....")
+#         print("5")
+#     else :
+#         print("Too High! Try again....")
 
+# try :
+#     num = 10/2
+# except:
+#     print("Exception raised")
+# else :
+#     print("This is else")
+# finally:
+#     print("This is finally")
 
-
+# try :
+#      num = 10/5
+#      if num == 2:
+#           raise AttributeError
+# except AttributeError:
+#      print("Attribute Error")
+# except:
+#      print("Exception raised")
+# else :
+#      print("This is else")
+# finally:
+#      print("This is finally")
 
 
 
