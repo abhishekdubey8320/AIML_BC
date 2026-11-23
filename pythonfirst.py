@@ -1413,6 +1413,60 @@ print(dictionary.keys())'''
 # finally:
 #      print("This is finally")
 
+#------------------modules--------------------------------
+# import math
+# print(math.sin(math.pi/2))
+
+# import math
+
+# def sin(x):
+#     if 2 * x == pi:
+#         return 0.99999999
+#     else :
+#         return None
+
+# pi = 3.14
+# print(sin(pi/2))
+
+# print(math.sin(math.pi/2))
+
+# from math import sin,pi
+
+# print(sin(pi/2))
+# #new sin and pi are going to be defined now
+# def sin(x):
+#     if 2 * x == pi:
+#         return 0.99999999
+#     else :
+#         return None
+
+# pi = 3.14
+# print(sin(pi/2))
+
+# import math as mathemetics
+# print(mathemetics.pi)
+# print(mathemetics.sin(mathemetics.pi/2))
+
+
+# from math import pi as PI, sin as sine
+# print(sine(PI/2))
+
+# import math
+
+# for name in dir(math):
+#     print(name)
+
+
+# from math import pi,radians,degrees,sin,cos,tan,asin
+# ad = 90
+# ar = radians(ad)
+# ad = degrees(ar)
+# print(ad == 90.)
+# print(ar == pi / 2.)
+# print(sin(ar) / cos (ar) == tan(ar))
+# print(asin(sin(ar)) == ar)
+
+
 
 
 
