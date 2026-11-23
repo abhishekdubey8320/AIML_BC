@@ -1466,6 +1466,110 @@ print(dictionary.keys())'''
 # print(sin(ar) / cos (ar) == tan(ar))
 # print(asin(sin(ar)) == ar)
 
+#--------------------------------------------------
+#Calculator App :
+
+def options():
+    print("Welcome to Calculator app :")
+    print("Please choose an options below :")
+    print("1. Addition")
+    print("2. Subtract")
+    print("3. Multification")
+    print("4. Devision")
+    print("5. Average")
+    print("6. Exit")
+
+#     choose = int(input("Please Enter option :"))
+#     return choose
+
+# choose = options()
+
+
+
+#Addition
+def addition_number():
+        first_number = int(input("Enter first number for Addition :"))
+        second_number = int(input("Enter second number for Addition:"))
+        add_number = first_number + second_number
+        print("==========================")
+        print(f"Total : {add_number}")
+        print("==========================")
+
+
+
+#Subtract 
+def subtract_number():
+        first_number = int(input("Enter first number for Subtract :"))
+        second_number = int(input("Enter second number for Subtract:"))
+        sub_number = first_number - second_number
+        print("==========================")
+        print(f"Subtract : {sub_number}")
+        print("==========================")
+
+#Multification
+def multification_number():
+       first_number = int(input("Enter first number for multification :"))
+       second_number = int(input("Enter second number for multification:"))
+       multiple_number = first_number * second_number
+       print("==========================")
+       print(f"Multification : {multiple_number}")
+       print("==========================")
+
+#Division
+def division_number():
+       first_number = int(input("Enter first number for division :"))
+       second_number = int(input("Enter second number for devision:"))
+       div_number = first_number / second_number
+       print("==========================")
+       print(f"Division : {div_number}")
+       print("==========================")
+
+
+#Average 
+def check_average():
+       first_number = int(input("Enter first number for average :"))
+       second_number = int(input("Enter second number for average:"))
+       avg_number = (first_number + second_number) / 2
+       print("==========================")
+       print(f"Average Number : {avg_number}")
+       print("==========================")
+
+#Exit
+def exit():
+       print("==========================")
+       print("Thank you !")
+       print("==========================")
+
+       
+        
+
+while True:
+    options()
+    choice = int(input("Enter your choice :"))
+    if choice == 1:
+       addition_number()
+    elif choice == 2:
+       subtract_number()
+    elif choice == 3:
+       multification_number()
+    elif choice == 4:
+       division_number()
+    elif choice == 5:
+       check_average()
+    elif choice == 6:
+         print("Thank you!")
+         break
+    else : 
+         print("You have entered invalid option!")
+        
+    
+
+
+
+
+
+
+    
 
 
 
