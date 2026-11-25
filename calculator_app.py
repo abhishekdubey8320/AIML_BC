@@ -17,16 +17,16 @@ def addition_number():
         while True:
              num = int(input("Enter number (-1 to stop :) : "))
 
-             if num == -1:
+             if num == -1: #try 
                   break
              
-             total +=num
+             total +=num 
         print("==========================")
         print(f"Sum of all numbers : {total}")
         print("==========================")
 #Subtract 
 def subtract_number():
-        first_number = int(input("Enter first number for Subtract :"))
+        first_number = int(input("Enter first number for Subtract :")) #while loop infinite 
         second_number = int(input("Enter second number for Subtract:"))
         sub_number = first_number - second_number
         print("==========================")
@@ -35,7 +35,7 @@ def subtract_number():
 
 #Multification
 def multification_number():
-       multiply = 1
+       multiply = 1 #try
        while True:
             num = int(input("Enter number (-1 to stop) : "))
             if num == -1:
@@ -47,7 +47,7 @@ def multification_number():
 
 #Division
 def division_number():
-       first_number = int(input("Enter first number for division :"))
+       first_number = int(input("Enter first number for division :")) # while
        second_number = int(input("Enter second number for devision:"))
        div_number = first_number / second_number
        print("==========================")
@@ -59,7 +59,7 @@ def division_number():
 def check_average():
        count = 0
        total = 0
-       while True:
+       while True:  #try #float
              num = int(input("Enter number (-1 to stop) : "))
              if num == -1:
                   break
@@ -94,7 +94,7 @@ while True:
             print("==========================")
     except ValueError:
         print("==========================")
-        print("Invalid input! Please enter numbers only.")
+        print("Invalid input! Please enter numbers only between 1 to 6.")
         print("==========================")
           
 

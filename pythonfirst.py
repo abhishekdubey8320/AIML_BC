@@ -1469,142 +1469,178 @@ print(dictionary.keys())'''
 #--------------------------------------------------
 #Calculator App :
 
-def options():
-    print("Welcome to Calculator app :")
-    print("Please choose an options below :")
-    print("1. Addition")
-    print("2. Subtract")
-    print("3. Multification")
-    print("4. Devision")
-    print("5. Average")
-    print("6. Exit")
+# def options():
+#     print("Welcome to Calculator app :")
+#     print("Please choose an options below :")
+#     print("1. Addition")
+#     print("2. Subtract")
+#     print("3. Multification")
+#     print("4. Devision")
+#     print("5. Average")
+#     print("6. Exit")
 
-#     choose = int(input("Please Enter option :"))
-#     return choose
+# #     choose = int(input("Please Enter option :"))
+# #     return choose
 
-# choose = options()
+# # choose = options()
 
 
 
-#Addition
-def addition_number():
-        total = 0
-        while True:
-             num = int(input("Enter number (-1 to stop :) : "))
+# #Addition
+# def addition_number():
+#         total = 0
+#         while True:
+#              num = int(input("Enter number (-1 to stop :) : "))
 
-             if num == -1:
-                  break
+#              if num == -1:
+#                   break
              
-             total +=num
-        print("==========================")
-        print(f"Sum of all numbers : {total}")
-        print("==========================")
+#              total +=num
+#         print("==========================")
+#         print(f"Sum of all numbers : {total}")
+#         print("==========================")
              
-        # first_number = int(input("Enter first number for Addition :"))
-        # second_number = int(input("Enter second number for Addition:"))
-        # add_number = first_number + second_number
-        # print("==========================")
-        # print(f"Total : {add_number}")
-        # print("==========================")
+#         # first_number = int(input("Enter first number for Addition :"))
+#         # second_number = int(input("Enter second number for Addition:"))
+#         # add_number = first_number + second_number
+#         # print("==========================")
+#         # print(f"Total : {add_number}")
+#         # print("==========================")
 
 
 
-#Subtract 
-def subtract_number():
-        first_number = int(input("Enter first number for Subtract :"))
-        second_number = int(input("Enter second number for Subtract:"))
-        sub_number = first_number - second_number
-        print("==========================")
-        print(f"Subtract : {sub_number}")
-        print("==========================")
+# #Subtract 
+# def subtract_number():
+#         first_number = int(input("Enter first number for Subtract :"))
+#         second_number = int(input("Enter second number for Subtract:"))
+#         sub_number = first_number - second_number
+#         print("==========================")
+#         print(f"Subtract : {sub_number}")
+#         print("==========================")
 
-#Multification
-def multification_number():
-       multiply = 1
-       while True:
-            num = int(input("Enter number (-1 to stop) : "))
-            if num == -1:
-                 break
-            multiply *= num
-       print("==========================")
-       print(f"Multiply of all numbers : {multiply}")
-       print("==========================")
+# #Multification
+# def multification_number():
+#        multiply = 1
+#        while True:
+#             num = int(input("Enter number (-1 to stop) : "))
+#             if num == -1:
+#                  break
+#             multiply *= num
+#        print("==========================")
+#        print(f"Multiply of all numbers : {multiply}")
+#        print("==========================")
             
-    #    first_number = int(input("Enter first number for multification :"))
-    #    second_number = int(input("Enter second number for multification:"))
-    #    multiple_number = first_number * second_number
-    #    print("==========================")
-    #    print(f"Multification : {multiple_number}")
-    #    print("==========================")
+#     #    first_number = int(input("Enter first number for multification :"))
+#     #    second_number = int(input("Enter second number for multification:"))
+#     #    multiple_number = first_number * second_number
+#     #    print("==========================")
+#     #    print(f"Multification : {multiple_number}")
+#     #    print("==========================")
 
-#Division
-def division_number():
-       first_number = int(input("Enter first number for division :"))
-       second_number = int(input("Enter second number for devision:"))
-       div_number = first_number / second_number
-       print("==========================")
-       print(f"Division : {div_number}")
-       print("==========================")
+# #Division
+# def division_number():
+#        first_number = int(input("Enter first number for division :"))
+#        second_number = int(input("Enter second number for devision:"))
+#        div_number = first_number / second_number
+#        print("==========================")
+#        print(f"Division : {div_number}")
+#        print("==========================")
 
 
-#Average 
-def check_average():
-       count = 0
-       total = 0
-       while True:
-             num = int(input("Enter number (-1 to stop) : "))
-             if num == -1:
-                  break
-             total += num
-             count += 1
-       average = total / count
-       print("==========================")
-       print(f"Average of all numbers : {average}")
-       print("==========================")
+# #Average 
+# def check_average():
+#        count = 0
+#        total = 0
+#        while True:
+#              num = int(input("Enter number (-1 to stop) : "))
+#              if num == -1:
+#                   break
+#              total += num
+#              count += 1
+#        average = total / count
+#        print("==========================")
+#        print(f"Average of all numbers : {average}")
+#        print("==========================")
              
-    #    first_number = int(input("Enter first number for average :"))
-    #    second_number = int(input("Enter second number for average:"))
-    #    avg_number = (first_number + second_number) / 2
-    #    print("==========================")
-    #    print(f"Average Number : {avg_number}")
-    #    print("==========================")
+#     #    first_number = int(input("Enter first number for average :"))
+#     #    second_number = int(input("Enter second number for average:"))
+#     #    avg_number = (first_number + second_number) / 2
+#     #    print("==========================")
+#     #    print(f"Average Number : {avg_number}")
+#     #    print("==========================")
 
-#Exit
-# def exit():
-#        print("==========================")
-#        print("Thank you !")
-#        print("==========================")
+# #Exit
+# # def exit():
+# #        print("==========================")
+# #        print("Thank you !")
+# #        print("==========================")
 
        
         
 
-while True:
-    options()
-    choice = int(input("Enter your choice :"))
-    if choice == 1:
-       addition_number()
-    elif choice == 2:
-       subtract_number()
-    elif choice == 3:
-       multification_number()
-    elif choice == 4:
-       division_number()
-    elif choice == 5:
-       check_average()
-    elif choice == 6:
-        break
-    else : 
-         print("==========================")
-         print("You have entered invalid option!")
-         print("==========================")
+# while True:
+#     options()
+#     choice = int(input("Enter your choice :"))
+#     if choice == 1:
+#        addition_number()
+#     elif choice == 2:
+#        subtract_number()
+#     elif choice == 3:
+#        multification_number()
+#     elif choice == 4:
+#        division_number()
+#     elif choice == 5:
+#        check_average()
+#     elif choice == 6:
+#         break
+#     else : 
+#          print("==========================")
+#          print("You have entered invalid option!")
+#          print("==========================")
          
+# from random import random
 
+# for count in range(5):
+#     print(random())
+
+# for count in range(5):
+#     print(random() * 100)
     
 
+# from random import random,seed
+# seed(0)
+# for i in range(5):
+#     print(random() * 100)
 
+# from random import randrange,randint
+# print(randrange(11),end=' ')  #11 is excluded
+# print(randrange(0,11),end=' ') #11 is excluded
+# print(randrange(0,11,2),end=' ') #11 is excluded
+# print(randint(0,11)) #11 is excluded
 
+# from random import choice,sample,seed
+# my_list = [1,2,3,4,5,6,7,8,9,10]
+# #seed(0)
+# print(choice(my_list))
+# print(sample(my_list,5))
+# print(sample(my_list,10))
 
+# from platform import platform,machine,processor,system,version
+# print(platform())
+# print(platform(1))
+# print(platform(0,1))
+# print(machine())
+# print(processor())
+# print(system())
+# print(version())
 
+from platform import python_implementation,python_version_tuple
+print(python_implementation())
+print(python_version_tuple)
+
+for atr in python_version_tuple():
+    print(atr,end="")
+    print(".",end="")
 
     
 
